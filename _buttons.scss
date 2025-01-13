@@ -1,0 +1,944 @@
+$buttons-colors: (
+  main: (
+    filled: (
+      default: (
+        color: var(),
+        background: var(),
+      ),
+      hover: (
+        color: var(),
+        background: var(),
+      ),
+      active: (
+        color: var(),
+        background: var(),
+      ),
+      focus: (
+        color: var(),
+        background: var(),
+      ),
+      disabled: (
+        color: var(),
+        background: var(),
+      ),
+      loading: (
+        color: var(),
+        background: var(),
+      ),
+    ),
+    outlined: (
+      default: (
+        color: var(),
+        background: var(),
+      ),
+      hover: (
+        color: var(),
+        background: var(),
+      ),
+      active: (
+        color: var(),
+        background: var(),
+      ),
+      focus: (
+        color: var(),
+        background: var(),
+      ),
+      disabled: (
+        color: var(),
+        background: var(),
+      ),
+      loading: (
+        color: var(),
+        background: var(),
+      ),
+    ),
+    tinted: (
+      default: (
+        color: var(),
+        background: var(),
+      ),
+      hover: (
+        color: var(),
+        background: var(),
+      ),
+      active: (
+        color: var(),
+        background: var(),
+      ),
+      focus: (
+        color: var(),
+        background: var(),
+      ),
+      disabled: (
+        color: var(),
+        background: var(),
+      ),
+      loading: (
+        color: var(),
+        background: var(),
+      ),
+    ),
+    ghost: (
+      default: (
+        color: var(),
+        background: var(),
+      ),
+      hover: (
+        color: var(),
+        background: var(),
+      ),
+      active: (
+        color: var(),
+        background: var(),
+      ),
+      focus: (
+        color: var(),
+        background: var(),
+      ),
+      disabled: (
+        color: var(),
+        background: var(),
+      ),
+      loading: (
+        color: var(),
+        background: var(),
+      ),
+    ),
+    contrast: (
+      default: (
+        color: var(),
+        background: var(),
+      ),
+      hover: (
+        color: var(),
+        background: var(),
+      ),
+      active: (
+        color: var(),
+        background: var(),
+      ),
+      focus: (
+        color: var(),
+        background: var(),
+      ),
+      disabled: (
+        color: var(),
+        background: var(),
+      ),
+      loading: (
+        color: var(),
+        background: var(),
+      ),
+    ),
+  ),
+  support: (
+    filled: (
+      default: (
+        color: var(),
+        background: var(),
+      ),
+      hover: (
+        color: var(),
+        background: var(),
+      ),
+      active: (
+        color: var(),
+        background: var(),
+      ),
+      focus: (
+        color: var(),
+        background: var(),
+      ),
+      disabled: (
+        color: var(),
+        background: var(),
+      ),
+      loading: (
+        color: var(),
+        background: var(),
+      ),
+    ),
+    outlined: (
+      default: (
+        color: var(),
+        background: var(),
+      ),
+      hover: (
+        color: var(),
+        background: var(),
+      ),
+      active: (
+        color: var(),
+        background: var(),
+      ),
+      focus: (
+        color: var(),
+        background: var(),
+      ),
+      disabled: (
+        color: var(),
+        background: var(),
+      ),
+      loading: (
+        color: var(),
+        background: var(),
+      ),
+    ),
+    tinted: (
+      default: (
+        color: var(),
+        background: var(),
+      ),
+      hover: (
+        color: var(),
+        background: var(),
+      ),
+      active: (
+        color: var(),
+        background: var(),
+      ),
+      focus: (
+        color: var(),
+        background: var(),
+      ),
+      disabled: (
+        color: var(),
+        background: var(),
+      ),
+      loading: (
+        color: var(),
+        background: var(),
+      ),
+    ),
+    ghost: (
+      default: (
+        color: var(),
+        background: var(),
+      ),
+      hover: (
+        color: var(),
+        background: var(),
+      ),
+      active: (
+        color: var(),
+        background: var(),
+      ),
+      focus: (
+        color: var(),
+        background: var(),
+      ),
+      disabled: (
+        color: var(),
+        background: var(),
+      ),
+      loading: (
+        color: var(),
+        background: var(),
+      ),
+    ),
+    contrast: (
+      default: (
+        color: var(),
+        background: var(),
+      ),
+      hover: (
+        color: var(),
+        background: var(),
+      ),
+      active: (
+        color: var(),
+        background: var(),
+      ),
+      focus: (
+        color: var(),
+        background: var(),
+      ),
+      disabled: (
+        color: var(),
+        background: var(),
+      ),
+      loading: (
+        color: var(),
+        background: var(),
+      ),
+    ),
+  ),
+  info: (
+    filled: (
+      default: (
+        color: var(),
+        background: var(),
+      ),
+      hover: (
+        color: var(),
+        background: var(),
+      ),
+      active: (
+        color: var(),
+        background: var(),
+      ),
+      focus: (
+        color: var(),
+        background: var(),
+      ),
+      disabled: (
+        color: var(),
+        background: var(),
+      ),
+      loading: (
+        color: var(),
+        background: var(),
+      ),
+    ),
+    outlined: (
+      default: (
+        color: var(),
+        background: var(),
+      ),
+      hover: (
+        color: var(),
+        background: var(),
+      ),
+      active: (
+        color: var(),
+        background: var(),
+      ),
+      focus: (
+        color: var(),
+        background: var(),
+      ),
+      disabled: (
+        color: var(),
+        background: var(),
+      ),
+      loading: (
+        color: var(),
+        background: var(),
+      ),
+    ),
+    tinted: (
+      default: (
+        color: var(),
+        background: var(),
+      ),
+      hover: (
+        color: var(),
+        background: var(),
+      ),
+      active: (
+        color: var(),
+        background: var(),
+      ),
+      focus: (
+        color: var(),
+        background: var(),
+      ),
+      disabled: (
+        color: var(),
+        background: var(),
+      ),
+      loading: (
+        color: var(),
+        background: var(),
+      ),
+    ),
+    ghost: (
+      default: (
+        color: var(),
+        background: var(),
+      ),
+      hover: (
+        color: var(),
+        background: var(),
+      ),
+      active: (
+        color: var(),
+        background: var(),
+      ),
+      focus: (
+        color: var(),
+        background: var(),
+      ),
+      disabled: (
+        color: var(),
+        background: var(),
+      ),
+      loading: (
+        color: var(),
+        background: var(),
+      ),
+    ),
+    contrast: (
+      default: (
+        color: var(),
+        background: var(),
+      ),
+      hover: (
+        color: var(),
+        background: var(),
+      ),
+      active: (
+        color: var(),
+        background: var(),
+      ),
+      focus: (
+        color: var(),
+        background: var(),
+      ),
+      disabled: (
+        color: var(),
+        background: var(),
+      ),
+      loading: (
+        color: var(),
+        background: var(),
+      ),
+    ),
+  ),
+  success: (
+    filled: (
+      default: (
+        color: var(),
+        background: var(),
+      ),
+      hover: (
+        color: var(),
+        background: var(),
+      ),
+      active: (
+        color: var(),
+        background: var(),
+      ),
+      focus: (
+        color: var(),
+        background: var(),
+      ),
+      disabled: (
+        color: var(),
+        background: var(),
+      ),
+      loading: (
+        color: var(),
+        background: var(),
+      ),
+    ),
+    outlined: (
+      default: (
+        color: var(),
+        background: var(),
+      ),
+      hover: (
+        color: var(),
+        background: var(),
+      ),
+      active: (
+        color: var(),
+        background: var(),
+      ),
+      focus: (
+        color: var(),
+        background: var(),
+      ),
+      disabled: (
+        color: var(),
+        background: var(),
+      ),
+      loading: (
+        color: var(),
+        background: var(),
+      ),
+    ),
+    tinted: (
+      default: (
+        color: var(),
+        background: var(),
+      ),
+      hover: (
+        color: var(),
+        background: var(),
+      ),
+      active: (
+        color: var(),
+        background: var(),
+      ),
+      focus: (
+        color: var(),
+        background: var(),
+      ),
+      disabled: (
+        color: var(),
+        background: var(),
+      ),
+      loading: (
+        color: var(),
+        background: var(),
+      ),
+    ),
+    ghost: (
+      default: (
+        color: var(),
+        background: var(),
+      ),
+      hover: (
+        color: var(),
+        background: var(),
+      ),
+      active: (
+        color: var(),
+        background: var(),
+      ),
+      focus: (
+        color: var(),
+        background: var(),
+      ),
+      disabled: (
+        color: var(),
+        background: var(),
+      ),
+      loading: (
+        color: var(),
+        background: var(),
+      ),
+    ),
+    contrast: (
+      default: (
+        color: var(),
+        background: var(),
+      ),
+      hover: (
+        color: var(),
+        background: var(),
+      ),
+      active: (
+        color: var(),
+        background: var(),
+      ),
+      focus: (
+        color: var(),
+        background: var(),
+      ),
+      disabled: (
+        color: var(),
+        background: var(),
+      ),
+      loading: (
+        color: var(),
+        background: var(),
+      ),
+    ),
+  ),
+  alert: (
+    filled: (
+      default: (
+        color: var(),
+        background: var(),
+      ),
+      hover: (
+        color: var(),
+        background: var(),
+      ),
+      active: (
+        color: var(),
+        background: var(),
+      ),
+      focus: (
+        color: var(),
+        background: var(),
+      ),
+      disabled: (
+        color: var(),
+        background: var(),
+      ),
+      loading: (
+        color: var(),
+        background: var(),
+      ),
+    ),
+    outlined: (
+      default: (
+        color: var(),
+        background: var(),
+      ),
+      hover: (
+        color: var(),
+        background: var(),
+      ),
+      active: (
+        color: var(),
+        background: var(),
+      ),
+      focus: (
+        color: var(),
+        background: var(),
+      ),
+      disabled: (
+        color: var(),
+        background: var(),
+      ),
+      loading: (
+        color: var(),
+        background: var(),
+      ),
+    ),
+    tinted: (
+      default: (
+        color: var(),
+        background: var(),
+      ),
+      hover: (
+        color: var(),
+        background: var(),
+      ),
+      active: (
+        color: var(),
+        background: var(),
+      ),
+      focus: (
+        color: var(),
+        background: var(),
+      ),
+      disabled: (
+        color: var(),
+        background: var(),
+      ),
+      loading: (
+        color: var(),
+        background: var(),
+      ),
+    ),
+    ghost: (
+      default: (
+        color: var(),
+        background: var(),
+      ),
+      hover: (
+        color: var(),
+        background: var(),
+      ),
+      active: (
+        color: var(),
+        background: var(),
+      ),
+      focus: (
+        color: var(),
+        background: var(),
+      ),
+      disabled: (
+        color: var(),
+        background: var(),
+      ),
+      loading: (
+        color: var(),
+        background: var(),
+      ),
+    ),
+    contrast: (
+      default: (
+        color: var(),
+        background: var(),
+      ),
+      hover: (
+        color: var(),
+        background: var(),
+      ),
+      active: (
+        color: var(),
+        background: var(),
+      ),
+      focus: (
+        color: var(),
+        background: var(),
+      ),
+      disabled: (
+        color: var(),
+        background: var(),
+      ),
+      loading: (
+        color: var(),
+        background: var(),
+      ),
+    ),
+  ),
+  danger: (
+    filled: (
+      default: (
+        color: var(),
+        background: var(),
+      ),
+      hover: (
+        color: var(),
+        background: var(),
+      ),
+      active: (
+        color: var(),
+        background: var(),
+      ),
+      focus: (
+        color: var(),
+        background: var(),
+      ),
+      disabled: (
+        color: var(),
+        background: var(),
+      ),
+      loading: (
+        color: var(),
+        background: var(),
+      ),
+    ),
+    outlined: (
+      default: (
+        color: var(),
+        background: var(),
+      ),
+      hover: (
+        color: var(),
+        background: var(),
+      ),
+      active: (
+        color: var(),
+        background: var(),
+      ),
+      focus: (
+        color: var(),
+        background: var(),
+      ),
+      disabled: (
+        color: var(),
+        background: var(),
+      ),
+      loading: (
+        color: var(),
+        background: var(),
+      ),
+    ),
+    tinted: (
+      default: (
+        color: var(),
+        background: var(),
+      ),
+      hover: (
+        color: var(),
+        background: var(),
+      ),
+      active: (
+        color: var(),
+        background: var(),
+      ),
+      focus: (
+        color: var(),
+        background: var(),
+      ),
+      disabled: (
+        color: var(),
+        background: var(),
+      ),
+      loading: (
+        color: var(),
+        background: var(),
+      ),
+    ),
+    ghost: (
+      default: (
+        color: var(),
+        background: var(),
+      ),
+      hover: (
+        color: var(),
+        background: var(),
+      ),
+      active: (
+        color: var(),
+        background: var(),
+      ),
+      focus: (
+        color: var(),
+        background: var(),
+      ),
+      disabled: (
+        color: var(),
+        background: var(),
+      ),
+      loading: (
+        color: var(),
+        background: var(),
+      ),
+    ),
+    contrast: (
+      default: (
+        color: var(),
+        background: var(),
+      ),
+      hover: (
+        color: var(),
+        background: var(),
+      ),
+      active: (
+        color: var(),
+        background: var(),
+      ),
+      focus: (
+        color: var(),
+        background: var(),
+      ),
+      disabled: (
+        color: var(),
+        background: var(),
+      ),
+      loading: (
+        color: var(),
+        background: var(),
+      ),
+    ),
+  ),
+  neutral: (
+    filled: (
+      default: (
+        color: var(),
+        background: var(),
+      ),
+      hover: (
+        color: var(),
+        background: var(),
+      ),
+      active: (
+        color: var(),
+        background: var(),
+      ),
+      focus: (
+        color: var(),
+        background: var(),
+      ),
+      disabled: (
+        color: var(),
+        background: var(),
+      ),
+      loading: (
+        color: var(),
+        background: var(),
+      ),
+    ),
+    outlined: (
+      default: (
+        color: var(),
+        background: var(),
+      ),
+      hover: (
+        color: var(),
+        background: var(),
+      ),
+      active: (
+        color: var(),
+        background: var(),
+      ),
+      focus: (
+        color: var(),
+        background: var(),
+      ),
+      disabled: (
+        color: var(),
+        background: var(),
+      ),
+      loading: (
+        color: var(),
+        background: var(),
+      ),
+    ),
+    tinted: (
+      default: (
+        color: var(),
+        background: var(),
+      ),
+      hover: (
+        color: var(),
+        background: var(),
+      ),
+      active: (
+        color: var(),
+        background: var(),
+      ),
+      focus: (
+        color: var(),
+        background: var(),
+      ),
+      disabled: (
+        color: var(),
+        background: var(),
+      ),
+      loading: (
+        color: var(),
+        background: var(),
+      ),
+    ),
+    ghost: (
+      default: (
+        color: var(),
+        background: var(),
+      ),
+      hover: (
+        color: var(),
+        background: var(),
+      ),
+      active: (
+        color: var(),
+        background: var(),
+      ),
+      focus: (
+        color: var(),
+        background: var(),
+      ),
+      disabled: (
+        color: var(),
+        background: var(),
+      ),
+      loading: (
+        color: var(),
+        background: var(),
+      ),
+    ),
+    contrast: (
+      default: (
+        color: var(),
+        background: var(),
+      ),
+      hover: (
+        color: var(),
+        background: var(),
+      ),
+      active: (
+        color: var(),
+        background: var(),
+      ),
+      focus: (
+        color: var(),
+        background: var(),
+      ),
+      disabled: (
+        color: var(),
+        background: var(),
+      ),
+      loading: (
+        color: var(),
+        background: var(),
+      ),
+    ),
+  ),
+);
+
+$buttons-sizes: (
+  sm: (
+    padding: var(),
+    gap: var(),
+    text-size: var(),
+  ),
+  md: (
+    padding: var(),
+    gap: var(),
+    text-size: var(),
+  ),
+  lg: (
+    padding: var(),
+    gap: var(),
+    text-size: var(),
+  ),
+);
